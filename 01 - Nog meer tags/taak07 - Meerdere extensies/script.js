@@ -1,0 +1,1 @@
+alert("Hallo, ik ben een alert.");
