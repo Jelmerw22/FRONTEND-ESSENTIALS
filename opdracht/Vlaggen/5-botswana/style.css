@@ -14,17 +14,27 @@
 
 #bovenkant{
     width: 800px;
-    height: 55%;
-    background-color: yellow;
+    height: 35%;
+    background-color: lightskyblue;
 }
-#midden{
+#midden1{
     width: 800px;
-    height: 22.5%;
-    background-color:blue;
+    height: 5%;
+    background-color:white;
+}
+#midden2{
+    width: 800px;
+    height: 20%;
+    background-color:black;
+}
+#midden3{
+    width: 800px;
+    height: 5%;
+    background-color:white;
 }
 #onderkant{
     width: 800px;
-    height: 22.5%;
-    background-color: red;
+    height: 35%;
+    background-color: lightskyblue;
 }
 
