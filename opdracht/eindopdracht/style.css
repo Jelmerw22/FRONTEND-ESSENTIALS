@@ -7,28 +7,33 @@
 .col{
     margin: 2px;
 }
+body{
+    src: url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300&display=swap');
+    text-align: center;
+    font-family: 'Comfortaa', cursive;
+}
 
-.button{
-    width: 300px;
-    height: 200px;
-    background-color:Aqua;
-    margin: 2px;
-    display: flex;
-    justify-content: center;
+.vertical-menu {
+    width: 150px; 
+    display: inline-block;
     align-items: center;
     
-}
-body{
-    background-color: grey;
-}
-
-.button span{
-    
-    font-size: 2em;
-    font-family: consolas;
-}
-.td{
-    width: 50px;
-}
-
+  }
+  
+  .vertical-menu a {
+    background-color: rgba(255, 255, 255, 0.233); 
+    color: black;
+    display: block;
+    padding: 12px; 
+    text-decoration: none;
+  }
+  
+  .vertical-menu a:hover {
+    background-color: rgba(204, 204, 204, 0.507);
+  }
+  
+  .vertical-menu a.active {
+    background-color: #4CAF50;
+    color: white;
+  }
 

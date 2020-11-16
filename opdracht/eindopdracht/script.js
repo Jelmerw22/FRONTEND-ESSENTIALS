@@ -7,18 +7,18 @@ let bezoeker = {
 };
 console.log(bezoeker);
 if(bezoeker.leeftijd==16) {
-    document.body.style.backgroundColor="AliceBlue" 
+    document.body.style.backgroundColor="Chocolate" 
 } else {
     document.body.style.backgroundColor="Black"
 };
 
 if(bezoeker.leeftijd==17) {
-    document.body.style.backgroundColor="BlueViolet"
-}
-if(bezoeker.leeftijd==18) {
     document.body.style.backgroundColor="Aqua"
 }
+if(bezoeker.leeftijd==18) {
+    document.body.style.backgroundColor="DarkGoldenRod"
+}
 if(bezoeker.leeftijd==19) {
-    document.body.style.backgroundColor="Aquamarine"
+    document.body.style.backgroundColor="Chartreuse"
 }
 
