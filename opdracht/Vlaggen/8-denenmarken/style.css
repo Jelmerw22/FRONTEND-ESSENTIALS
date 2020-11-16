@@ -4,31 +4,37 @@
 }
 
 #container{
-    width: 800px;
+    width: 600px;
     height: 500px;
-    background-color: blanchedalmond;
+    background-color: white;
     border: 1px solid black;
 }
 
 /* Hieronder kun je gaan editen */
 
 #bovenkant{
-    width: 800px;
-    height: 250px;
-    display: flex;
-    background-color: white;
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  height: 50%;
+  background-color: white;
+
 }
 #bovenkantlinks{
-    width: 30%;
-    height: 250px;
-    background-color: red;
-    align-items: flex-start;
+   display: flex;
+   justify-content: flex-start;
+   align-items: flex-start;
+   width: 35%;
+   height: 80%;
+   background-color: red;
 }
 #bovenkantrechts{
-    width: 60%;
-    height: 250px;
-    background-color: red;
+    display: flex;
+    justify-content: flex-end;
     align-items: flex-end;
+    width: 55%;
+    height: 80%;
+    background-color: red;
 }
 #onderkant{
     width: 800px;
