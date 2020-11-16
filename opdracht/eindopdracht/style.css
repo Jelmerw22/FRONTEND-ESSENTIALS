@@ -11,12 +11,15 @@
 .button{
     width: 300px;
     height: 200px;
-    background-color: red;
+    background-color:Aqua;
     margin: 2px;
     display: flex;
     justify-content: center;
     align-items: center;
     
+}
+body{
+    background-color: grey;
 }
 
 .button span{
@@ -24,3 +27,8 @@
     font-size: 2em;
     font-family: consolas;
 }
+.td{
+    width: 50px;
+}
+
+

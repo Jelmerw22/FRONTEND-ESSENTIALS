@@ -4,35 +4,34 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="Vlaggen" href="vlaggen.html">
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
     
-    <div class="container status">
-        
+    <table>
+        <thead>
+        </thead>
+           <tr>
+            <td>Voornaam</td>
+            <td>Achternaam</td>
+        </tr>
+        <tr>
+            <th>Diego</th>
+            <th>Blom</th>
+        </tr>
+    </tb>
+        </table>
     </div>
     <div class="container">
-        <div class="col">
-            <div class="button" id="eten"><span>Geef eten</span></div>
-            <div class="button" id="drinken"><span>Geef Drinken</span></div>
-            <div class="button" id="aaien"><span>Aaien</span></div>
-        </div>
-        <div class="col">
-        </div>
+          <div class="button">
+              <a href="vlaggen.html"><span>Vlaggen</span></a>
+          </div>
+        
+    </div>
+
         <div class="response"></div>
     </div>
-    <script>
-        
-        let persoon = {
-            voornaam : prompt("Wat is je naam?"),
-            achternaam : prompt("Wat is je achternaam?"),
-            leeftijd : prompt("Wat is je leeftijd?"),
-        };
-
-
-
-        
-        
-    </script>
+    <script src ="script.js"></script>
 </body>
 </html>
