@@ -37,19 +37,24 @@
     background-color: red;
 }
 #onderkant{
-    width: 800px;
-    height: 250px;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 100%;
     background-color: white;
 }
-#onderkant{
-    width: 800px;
-    height: 250px;
-    background-color: white;
+#onderkantlinks{
+    display: inline-block;
+    width: 35%;
+    height: 50%;
+    background-color: red;
+
 }
-#onderkant{
-    width: 800px;
-    height: 250px;
-    background-color: white;
+#onderkantrechts{
+    display: inline-block;
+    width: 55%;
+    height: 50%;
+    background-color: red;
 }
 
 
