@@ -21,4 +21,4 @@ if(bezoeker.leeftijd==18) {
 if(bezoeker.leeftijd==19) {
     document.body.style.backgroundColor="Chartreuse"
 }
-
+var x = document.getElementById("tabel");
