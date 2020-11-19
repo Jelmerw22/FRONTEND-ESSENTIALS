@@ -11,12 +11,15 @@ body{
     src: url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300&display=swap');
     text-align: center;
     font-family: 'Comfortaa', cursive;
+    display: flex;
+    justify-content: center;
 }
 
 .vertical-menu {
     width: 150px; 
-    display: inline-block;
-    align-items: center;
+    display: flex;
+    align-self: center;
+    flex-direction: column;
     
   }
   
